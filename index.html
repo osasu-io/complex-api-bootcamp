@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PokéTranslator</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+    <h1>Pokémon Description Translator</h1>
+
+    <input type="text" id="pokeInput" placeholder="Enter Pokémon name">
+    <button onclick="fetchPokemon()">Translate</button>
+
+    <div id="result">
+        <h3>Original Description:</h3>
+        <p id="original"></p>
+        <h3>Translated Description (Shakespearean):</h3>
+        <p id="translated"></p>
+    </div>
+
+    <script src="js/app.js"></script>
+</body>
+
+</html>
